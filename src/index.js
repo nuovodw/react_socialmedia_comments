@@ -23,13 +23,14 @@ const App = () => {
 				/>
 			</ApprovalCard>
 
-			<CommentDetail
-				author="Jane"
-				timeAgo="Yesterday at 5:00AM"
-				content="Good job!"
-				avatar={faker.image.avatar()}
-			/>
-
+			<ApprovalCard>
+				<CommentDetail
+					author="Jane"
+					timeAgo="Yesterday at 5:00AM"
+					content="Good job!"
+					avatar={faker.image.avatar()}
+				/>
+			</ApprovalCard>
 			<br />
 			<ApprovalCard>Are you sure you want to exit?</ApprovalCard>
 		</div>
